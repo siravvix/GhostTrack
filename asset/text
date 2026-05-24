@@ -5,3 +5,5 @@ Image..
 <!-- TODO: add actual screenshot once I get the tracker running on my test video -->
 
 <!-- Personal note: using dashcam footage from my commute for initial testing -->
+
+<!-- Update: tested with 1080p footage, works well but drops frames at 60fps - sticking to 30fps for now -->
