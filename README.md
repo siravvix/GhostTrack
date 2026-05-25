@@ -32,6 +32,14 @@ python3 GhostTR.py
 
 > **Note (personal):** On Termux, if `pip install -r requirements.txt` fails for `phonenumbers`, try `pip install phonenumbers==8.13.6` explicitly — newer versions had install issues on my Android setup.
 
+> **Note (personal):** On some Linux distros (e.g. Kali, Ubuntu 23+), you may need to use a virtual environment to avoid the `externally-managed-environment` pip error:
+> ```
+> python3 -m venv venv
+> source venv/bin/activate
+> pip install -r requirements.txt
+> python3 GhostTR.py
+> ```
+
 Display on the menu ```IP Tracker```
 
 <img src="https://github.com/HunxByts/GhostTrack/blob/main/asset/ip.png " />
