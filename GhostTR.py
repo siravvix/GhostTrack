@@ -27,7 +27,8 @@ Wh = '\033[1;37m'
 # Changed from 12z to 10z for a slightly wider view that gives more geographic context
 # Personal note: bumped back to 12z -- I prefer street-level detail for my use case
 # Trying 8z now -- city-level view is more useful when the IP geolocation isn't very precise anyway
-MAPS_ZOOM = '8z'
+# Settled on 10z -- good middle ground between street detail and geographic context
+MAPS_ZOOM = '10z'
 
 # utilities
 
@@ -71,5 +72,4 @@ def IP_Track():
     print(f"{Wh} Borders         :{Gr}", ip_data["borders"])
     print(f"{Wh} Country Flag    :{Gr}", ip_data["flag"]["emoji"])
     print(f"{Wh} ASN             :{Gr}", ip_data["connection"]["asn"])
-    print(f"{Wh} ORG             :{Gr}", ip_data["connection"]["org"])
-    print(f"{Wh} ISP             :{Gr}", ip_data["connection"]["isp
+    print(f"{Wh} ORG             :{Gr}"
