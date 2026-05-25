@@ -25,7 +25,8 @@ Wh = '\033[1;37m'
 
 # Map zoom level for Google Maps link (8z = city level, 12z = street level)
 # Changed from 12z to 10z for a slightly wider view that gives more geographic context
-MAPS_ZOOM = '10z'
+# Personal note: bumped back to 12z -- I prefer street-level detail for my use case
+MAPS_ZOOM = '12z'
 
 # utilities
 
@@ -72,5 +73,4 @@ def IP_Track():
     print(f"{Wh} ORG             :{Gr}", ip_data["connection"]["org"])
     print(f"{Wh} ISP             :{Gr}", ip_data["connection"]["isp"])
     print(f"{Wh} Domain          :{Gr}", ip_data["connection"]["domain"])
-    print(f"{Wh} ID              :{Gr}", ip_data["timezone"]["id"])
-    print(f"{Wh} ABBR    
+    pr
