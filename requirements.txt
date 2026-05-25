@@ -3,3 +3,4 @@ phonenumbers
 colorama
 rich  # nicer terminal output, optional but recommended
 pretty_errors  # cleaner tracebacks during development
+ipython  # useful for interactive debugging sessions
