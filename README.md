@@ -40,6 +40,8 @@ python3 GhostTR.py
 > python3 GhostTR.py
 > ```
 
+> **Note (personal):** On Windows (WSL2), the above venv approach also works well. Just make sure to use `python3` and not `python` to avoid hitting the Windows Store stub.
+
 Display on the menu ```IP Tracker```
 
 <img src="https://github.com/HunxByts/GhostTrack/blob/main/asset/ip.png " />
